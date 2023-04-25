@@ -1,10 +1,10 @@
-const catalogo = [{ nombre: 'Pauny', modelo: 'EVO 580', imagen: '../img/Tractor-Pauny-Novo-580.jpg', importe: 90000, codigo: 1 },
-{ nombre: 'Agco', modelo: 'Allis 5.190', imagen: '../img/tractor-Deutz-Allis-5190-a-1.jpg', importe: 72000, codigo: 2 },
-{ nombre: 'Farmtrac', modelo: '50 HP', imagen: '../img/Farmtrac-50-Powermaxx.jpg', importe: 20000, codigo: 3 },
-{ nombre: 'CASE', modelo: 'Farmall 110m', imagen: '../img/b2ap3_large_caseih-farmall-m-activedrive-4.jpg', importe: 78800, codigo: 4 },
-{ nombre: 'New Holland', modelo: 'T7.195', imagen: '../img/new-holland-0km-t7-195-oferta--Borio-agrofy-0-20230308131210.webp', importe: 122000, codigo: 5 },
-{ nombre: 'Valtra', modelo: 'BH 180', imagen: '../img/Tractor-Valtra-BH180.jpg', importe: 77000, codigo: 6 },
-{ nombre: 'John Deere', modelo: '5082', imagen: '../img/3aabeb5a9b5643e4a5c07c6927c904df.jpg', importe: 99000, codigo: 7 },]
+const catalogo = [{ nombre: 'Pauny', modelo: 'EVO 580', imagen: './img/Tractor-Pauny-Novo-580.jpg', importe: 90000, codigo: 1 },
+{ nombre: 'Agco', modelo: 'Allis 5.190', imagen: './img/tractor-Deutz-Allis-5190-a-1.jpg', importe: 72000, codigo: 2 },
+{ nombre: 'Farmtrac', modelo: '50 HP', imagen: './img/Farmtrac-50-Powermaxx.jpg', importe: 20000, codigo: 3 },
+{ nombre: 'CASE', modelo: 'Farmall 110m', imagen: './img/b2ap3_large_caseih-farmall-m-activedrive-4.jpg', importe: 78800, codigo: 4 },
+{ nombre: 'New Holland', modelo: 'T7.195', imagen: './img/new-holland-0km-t7-195-oferta--Borio-agrofy-0-20230308131210.webp', importe: 122000, codigo: 5 },
+{ nombre: 'Valtra', modelo: 'BH 180', imagen: './img/Tractor-Valtra-BH180.jpg', importe: 77000, codigo: 6 },
+{ nombre: 'John Deere', modelo: '5082', imagen: './img/3aabeb5a9b5643e4a5c07c6927c904df.jpg', importe: 99000, codigo: 7 },]
 
 
 const contenedorCards = document.querySelector("div#contenedorCards")
